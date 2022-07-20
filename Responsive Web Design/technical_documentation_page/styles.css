@@ -1,0 +1,125 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+    }
+    
+    #nav-header{
+        line-height: 55px;
+    }
+    
+    #navbar{
+        display:block;
+        position:fixed;
+        height: 100%;
+        width:2 00px;
+        border-right:2px solid;
+        border-color:#7e7e7e;
+        background-color: #ffffff;
+        color:#242424;
+    }
+
+    @media (max-height:720px){
+        #navbar{
+        overflow-y:scroll;
+        }
+    }
+
+    #nav-header>li{
+        border-top:1px solid; 
+    }
+
+    .nav-link{
+        text-decoration: none;
+        color:#636363;
+        line-height:60px ;
+        border-top:1px solid;
+        display: block;
+    }
+
+    #navbar ul{
+        padding:0;
+        list-style-type:none;
+    }
+
+    #navbar p{
+        margin-left:20px;
+        margin-right:20px;
+    }    
+
+    a.nav-link:hover{
+    color:#000;
+    }
+    
+    #main-doc{
+        margin:0px 50px 0px 300px;   
+        line-height: 1.5;
+    }
+
+    header{
+        font-weight:bold;
+        font-size:1.4em;
+        margin-bottom:10px;
+    }
+
+    code{
+        display:block;
+        background-color:#ababab47;
+        margin-top:15px;
+        margin-bottom:15px;
+        padding:10px;
+        width: 100% ;
+    }
+
+    @media(max-width:800px){
+        code{
+            overflow-x: scroll;
+        }
+    }
+
+    footer{
+        text-align:center;
+        margin:0;
+    }
+
+    
+    @media (max-width:600px){
+        header{
+        text-align:center;
+        }
+
+        #navbar{
+        display:flex;
+        flex-direction:column;
+        position:static;
+        max-height:300px;
+        }
+
+        #navlinks{
+        overflow-y:scroll;
+        }
+
+        #main-doc{
+        margin:0px 10px 0px 10px;
+        padding:0;
+        }
+    }
+
+    thead{
+        background-color:#000000cb;
+        color: white;
+    }
+
+    tbody{
+        text-align:center;
+        background-color: #ababab47;
+    }
+
+    table{
+        padding:10px;
+        border-spacing:0px;
+    }
+
+    td, tr, th{
+        padding:10px;
+        border: 1px solid #ababab47;
+    }

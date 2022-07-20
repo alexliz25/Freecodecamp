@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <main id="content">
+      <div id="header">
+    <h1 class="header" id="title">Formulario de encuesta sobre la programación</h1>
+    <p class="header" id="description">Gracias en dedicar unos minutos para rellenar esta encuesta</p>
+      </div>
+    <form id="survey-form">
+          <div id="group">
+            <label id="name-label">Nombre:</label><br>
+      <input type="text" class="width-size" id="name" required placeholder="Ingrese su nombre"> <br><br>
+            <label id="email-label">Email:</label><br>
+      <input type="email" class="width-size" id="email" required placeholder="example@mail.com"> <br><br>
+            <label id="number-label">Edad (Opcional):</label><br>
+      <input type="number" class="width-size" id="number" max="100" min="5" placeholder="00"> <br><br>
+            <label>¿Cuál es tu ocupación actual?</label><br>
+      <select class="width-size" id="dropdown">
+        <option disabled selected>Seleccione</option>
+        <option>Estudiante</option>
+        <option>Empleado</option>
+        <option>Independiente</option>
+        <option>Ninguno</option>
+        </select> <br><br>
+          <label>¿Te gustaría estudiar algo relacionado con la programación?</label><br>
+        <input type="radio" name="radio-option" value="si" class="input-radio"><label>Por su puesto</label><br>
+        <input type="radio" name="radio-option" value="quiza" class="input-radio"><label>Quizá</label><br>
+        <input type="radio" name="radio-option" value="no" class="input-radio"><label>Para nada</label><br><br>
+      <label>¿Qué lenguaje de programación le gustaría aprender?</label><br>
+      <input type="checkbox" value="input-checkbox" name="Python">
+      <label>Python</label>
+<br>
+      <input type="checkbox" value="input-checkbox" name="C/C++">
+      <label>C/C++</label>
+<br>
+      <input type="checkbox" value="input-checkbox" name="C#">
+      <label>C#</label>
+<br>
+      <input type="checkbox" value="input-checkbox" name="PHP">
+      <label>PHP</label>
+<br>
+      <input type="checkbox" value="input-checkbox" name="Java">
+      <label>Java</label>
+<br>
+      <input type="checkbox" value="input-checkbox" name="Javascript">
+      <label>Javascript</label>
+<br>
+      <input type="checkbox" value="input-checkbox" name="Otro">
+      <label>Otro</label>
+<br><br>
+      <label>¿Qué opinas sobre la programación en el futuro?</label><br>
+      <textarea id="box-textarea"  placeholder="Escribe tu opinión aquí"></textarea>
+<br>
+<br>
+
+    <input type="submit" id="submit" value="Confirmar">
+    </div>
+      </form>
+      <p id="created_by">Website created by <a href="https://github.com/alexliz25">Andrés Alexander Núñez Liz</a></p>
+    </main>
+</body>
+</html>
